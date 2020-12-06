@@ -54,7 +54,11 @@ body, html {
     }
 
     body {
-        font-size:24px;
+        background-image: url("../img/logobig.svg");
+        background-repeat: no-repeat;
+        // background-position: center;
+        background-position: right -24vw top -24vh;
+        background-size: 100%;
     }
 
     header {
