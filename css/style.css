@@ -16,6 +16,13 @@ body, html {
     padding-top: 4vh;
 }
 
+.img {
+    margin-bottom: 2vh;
+    z-index: -10;
+    max-width: 100%;
+    max-height: 100%;
+}
+
 @media screen and (max-width: 900px){
     body {
         background-image: url("../img/mobile.svg");
@@ -56,7 +63,6 @@ body, html {
     body {
         background-image: url("../img/logobig.svg");
         background-repeat: no-repeat;
-        // background-position: center;
         background-position: right -24vw top -24vh;
         background-size: 100%;
     }
