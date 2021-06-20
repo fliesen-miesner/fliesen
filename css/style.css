@@ -61,6 +61,10 @@ body, html {
     }
 
     body {
+        background-image: url("../img/mobile.svg");
+        background-repeat: no-repeat;
+        background-position: left 75vw top -35vh;
+        background-size: 50%;
         // background-image: url("../img/logobig.svg");
         // background-repeat: no-repeat;
         // background-position: right -24vw top -24vh;
